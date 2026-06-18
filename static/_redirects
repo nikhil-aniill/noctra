@@ -1,0 +1,10 @@
+# Cloudflare Pages redirects — https://developers.cloudflare.com/pages/configuration/redirects/
+#
+# www -> apex is intentionally NOT configured here. On Cloudflare Pages the _redirects
+# file is PATH-based: a `www.noctra.sh/*` source isn't reliably host-scoped, and a `/*`
+# rule to the apex would redirect-loop on the apex itself. Configure www -> apex with
+# Cloudflare Bulk Redirects (or a single Redirect Rule) in the dashboard instead:
+#   https://developers.cloudflare.com/pages/how-to/www-redirect/
+#
+# Use this file for safe PATH redirects as the blog grows, e.g. when you rename a post:
+#   /old-slug/   /posts/new-slug/   301

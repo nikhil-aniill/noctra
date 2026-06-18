@@ -1,0 +1,27 @@
+# -- Main Menu --
+# Displayed in the header at the top of the page.
+# Acceptable params: name, pageRef, page, url, title, weight.
+# Ordered by weight from lowest to highest.
+
+[[main]]
+  name = "Posts"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 20
+
+# Search icon (enabled via enableSearch in params.toml)
+[[main]]
+  identifier = "search"
+  weight = 99
+  [main.params]
+    action = "search"
+
+# -- Footer Menu --
+# [[footer]]
+#   name = "Tags"
+#   pageRef = "tags"
+#   weight = 10
