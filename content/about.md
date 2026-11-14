@@ -5,19 +5,14 @@ draft = false
 description = "About noctra — a security and infosec blog."
 +++
 
-**noctra** is a security and infosec blog: research, notes, lab writeups, and the occasional deep dive into tooling.
-
-## About this site
-
-Built with [Hugo](https://gohugo.io) and the [Congo](https://github.com/jpanther/congo) theme, written in Markdown, and deployed as a static site.
+**noctra** is a security and infosec blog: research and notes.
 
 ## Contact
 
 <!-- Replace these placeholders with your real links (or wire social icons into
      config/_default/languages.en.toml under [params.author].links). -->
 
-- GitHub: `your-handle`
-- Email: `you@example.com`
+- LinkedIn: [https://www.linkedin.com/in/nikhilanilkumar/`](https://www.linkedin.com/in/nikhilanilkumar/)
 
 ---
 

@@ -1,0 +1,9 @@
+/* Custom overrides for the Noctra blog. Loaded after the theme's main CSS. */
+
+/* Widen the overall page container.
+   Congo's <body> uses max-w-7xl (80rem / 1280px). The Tailwind class
+   max-w-screen-2xl isn't in the theme's pre-compiled CSS bundle, so we
+   set the wider width here instead. Targets the body's max-w-7xl utility. */
+body.max-w-7xl {
+  max-width: 96rem; /* 1536px */
+}
